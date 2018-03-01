@@ -6,6 +6,7 @@ namespace ConsoleView
     {
         static void Main(string[] args)
         {
+            Pessoa p = new Pessoa();
 
         }
     }
