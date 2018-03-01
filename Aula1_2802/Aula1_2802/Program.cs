@@ -10,6 +10,19 @@ namespace Aula1_2802
     {
         static void Main(string[] args)
         {
+            string nome = string.Empty;
+
+            Pessoa p = new Pessoa();
+
+
+            Console.WriteLine("Digite seu nome");
+            p.Nome = Console.ReadLine(); 
+            Console.WriteLine("Ola " + p.Nome);
+
+
+
+
+            Console.ReadKey();
         }
     }
 }
