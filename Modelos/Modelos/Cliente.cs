@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Modelos
 {
-    public class Fornecedor : Pessoa //herdeiro
+    public class Cliente:Pessoa
     {
+
 
     }
 }
