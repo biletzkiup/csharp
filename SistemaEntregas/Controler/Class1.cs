@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modelos
+namespace Controler
 {
-    public class Cliente:Pessoa
+    public class Class1
     {
-
-
     }
 }
