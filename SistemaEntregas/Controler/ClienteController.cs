@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Controler
 {
-    public class Class1
+    public class ClienteController
     {
+
+        public void SalvarCliente(Cliente cliente)
+        {
+
+        }
+
+
     }
 }
