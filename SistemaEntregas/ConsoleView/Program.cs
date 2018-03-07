@@ -44,26 +44,22 @@ namespace ConsoleView
         {
             Cliente cli = new Cliente();
             Console.WriteLine();
+
             Console.WriteLine("Nome: ");
             cli.Nome = Console.ReadLine();
-
             Console.WriteLine();
 
             Console.WriteLine("Cpf: ");
             cli.Cpf = Console.ReadLine();
-
             Console.WriteLine();
 
             Endereco end = new Endereco();
-
             Console.WriteLine("Rua: ");
             end.Rua = Console.ReadLine();
-
             Console.WriteLine();
 
             Console.WriteLine("Numero: ");
             end.Numero = int.Parse(Console.ReadLine());
-
             Console.WriteLine();
 
             Console.WriteLine("Complemento: ");
